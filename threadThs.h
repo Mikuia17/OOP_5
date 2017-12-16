@@ -15,7 +15,7 @@ public:
         DIS = new dismatler(file_name, file_name_o);
     }
     void run();
-    bool isExit, isDone;
+    bool isExit, isDone, isPause;
 private:
     std::string file_name, file_name_o;
     dismatler *DIS;

@@ -1,5 +1,4 @@
 #include "dismantler.h"
-#include "d_exc.h"
 
 void dismatler::dism( uint64_t inp ) {
     data.clear();

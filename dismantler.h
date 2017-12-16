@@ -15,10 +15,8 @@ public:
     std::string generate_str();
 private:
     std::map< uint64_t, uint64_t > data;
-    std::string file_name;
-    std::string file_name_o;
+    std::string file_name, file_name_o, str_print;
     uint64_t inp;
-    std::string str_print;
 };
 
 namespace patch
